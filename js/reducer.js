@@ -20,3 +20,5 @@ function  render(){
 }
 
 dispatch({type: '@@INIT'})
+
+let button = document.getElementById( 'button' );
