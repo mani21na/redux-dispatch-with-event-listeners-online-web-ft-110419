@@ -22,3 +22,5 @@ function  render(){
 dispatch({type: '@@INIT'})
 
 let button = document.getElementById( 'button' );
+
+button.addEventListener('click', () => { duspatch({ type: 'INCREASE_COUNT' }) })
